@@ -11,5 +11,7 @@ function paperRequirements(firstBookCopy, secondBookCopy, thirdBookCopy){
 
     return totalPage;
 }
-
-console.log(paperRequirements(2,2,2))
+                                            //output
+console.log(paperRequirements(2,2,2))      //1200
+console.log(paperRequirements(1,1,1))      //600
+console.log(paperRequirements(0,0,1))      //300
